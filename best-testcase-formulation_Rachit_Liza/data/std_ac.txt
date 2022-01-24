@@ -1,0 +1,30 @@
+solve_for,Reoffer (%),1
+solve_for,Autocall Coupon (%),1
+placement,Private Placement,1
+placement,Public Placement,1
+strike_shift,Fwd,0.2
+strike_shift,Tdy,0.8
+issue_date,T+5,0.25
+issue_date,T+10,0.25
+issue_date,Custom,0.5
+ac_type,Variable Barrier,1
+ac_type,Constant Barrier,1
+ac_freq,Daily,0.5
+ac_freq,Monthly,0.5
+ac_freq,Quarterly,0
+ac_freq,Semiannually,0
+ac_freq,Annually,0
+ac_from,Y1,0.8
+ac_from,M1,0.8
+ac_from,Q1,0.8
+ac_from,S1,0.8
+ac_from,Y2,0.2
+ac_from,M2,0.2
+ac_from,Q2,0.2
+ac_from,S2,0.2
+ac_coupon_type,Flat,0.8
+ac_coupon_type,Snowball,0.2
+payoff_type,European,0.8
+payoff_type,Am Daily Close,0.067
+payoff_type,Am Intraday,0.067
+payoff_type,None,0.067

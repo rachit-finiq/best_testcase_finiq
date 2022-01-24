@@ -36,8 +36,3 @@ The code was run for the Standard Autocall product and the basket size was varie
 ## Reference
 - Genetic Algorithm: https://en.wikipedia.org/wiki/Genetic_algorithm 
 - KL Divergence: https://en.wikipedia.org/wiki/Kullback%E2%80%93Leibler_divergence 
-
-## Updates
-- Added migration in genetic algorithm to improve the results (coverage) by producing more diversity in each iteration on average and achieve faster rate of convergence.
-	Observtion: Not much difference was observed in the results as the the sample dataset is not so large so it was anyway converging to the near-optimal solution. There was a slight improvement in the rate of convergence but it was not that significant. Also, it was more or less compensated by the more number of computations required and hence the overall time remained similar.
-	

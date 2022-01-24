@@ -1,0 +1,23 @@
+
+    # Solve_for=["Autocall Coupon (%)", "Reoffer (%)"]
+    # Public=["Private Placement"]
+    # Strike_shift=["Fwd","Tdy"]
+    # Issue=["T+10", "T+5", "Custom"]
+    # A_Type=["Constant Barrier", "Variable Barrier"]
+    # A_freq=["Monthly","Quarterly","Semiannually", "Daily","Annually"]
+    # A_from=["M1","Q1", "S1","Y1"]
+    # C_coupon=["Flat","Snowball"]
+    # p_type=["Am Daily Close","None", "European", "Am Intraday"]
+
+    # for a in Solve_for:
+    #     for b in Public:
+    #         for c in Strike_shift:
+    #             for d in Issue:
+    #                 for e in A_Type:
+    #                     for f in A_freq:
+    #                         for g in A_from:
+    #                             for h in C_coupon:
+    #                                 for i in p_type:
+    #                                     s = a+","+b+","+c+","+d+","+e+","+f+","+g+","+h+",,,,,,,"+i
+    #                                     tmp=Object(s).q()
+    #                                     e1+=tmp
